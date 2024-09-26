@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <div className="bg-white-200 text-white p-5 flex justify-between">
-      <img src="../../public/figma.png" className="h-10 w-auto py-2"/>
+      <img src="/public/figma.png" className="h-10 w-auto py-2"/>
       <div className="flex gap-10">
         <div className="text-black flex gap-4 items-center">
           <a href="#">Products</a>

@@ -35,10 +35,10 @@ const Footer = () => {
   ];
 
   const socialIcons = [
-    { name: "Twitter", src: "../../public/x.png" },
-    { name: "Instagram", src: "../../public/instagram.png" },
-    { name: "YouTube", src: "../../public/youtube.png" },
-    { name: "LinkedIn", src: "../../public/linkedin.png" }
+    { name: "Twitter", src: "/public/x.png" },
+    { name: "Instagram", src: "/public/instagram.png" },
+    { name: "YouTube", src: "/public/youtube.png" },
+    { name: "LinkedIn", src: "/public/linkedin.png" }
   ];
 
   return (
@@ -46,7 +46,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between space-y-8 md:space-y-0">
           <div className="flex flex-col space-y-4">
-            <img src="../../public/figma.png" alt="Logo" className="w-5 h-8 0" />
+            <img src="/public/figma.png" alt="Logo" className="w-5 h-8 0" />
             <div className="flex gap-3">
               {socialIcons.map((icon, index) => (
                 <img 

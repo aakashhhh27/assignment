@@ -8,12 +8,12 @@ const ImageCard = ({ title, description, imageSrc }) => (
 
 const ImageGrid = () => {
   const items = [
-    { title: "Title", description: "Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very short story.", imageSrc: "../../public/placeholder.png" },
-    { title: "Title", description: "Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very short story.", imageSrc: "../../public/placeholder.png" },
-    { title: "Title", description: "Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very short story.", imageSrc: "../../public/placeholder.png" },
-    { title: "Title", description: "Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very short story.", imageSrc: "../../public/placeholder.png" },
-    { title: "Title", description: "Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very short story.", imageSrc: "../../public/placeholder.png" },
-    { title: "Title", description: "Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very short story.", imageSrc: "../../public/placeholder.png" },
+    { title: "Title", description: "Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very short story.", imageSrc: "/public/placeholder.png" },
+    { title: "Title", description: "Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very short story.", imageSrc: "/public/placeholder.png" },
+    { title: "Title", description: "Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very short story.", imageSrc: "/public/placeholder.png" },
+    { title: "Title", description: "Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very short story.", imageSrc: "/public/placeholder.png" },
+    { title: "Title", description: "Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very short story.", imageSrc: "/public/placeholder.png" },
+    { title: "Title", description: "Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very short story.", imageSrc: "/public/placeholder.png" },
   ];
 
   return (

@@ -16,11 +16,11 @@ const QuoteCard = ({ quote, title, description, imageSrc }) => (
 const QuoteGrid = () => {
   const quotes = [
     { quote: "Quote", title: "Title", description: "Description" },
-    { quote: "Quote", title: "Title", description: "Description", imageSrc: "../../public/Avatar.png" },
-    { quote: "Quote", title: "Title", description: "Description", imageSrc: "../../public/Avatar.png" },
-    { quote: "Quote", title: "Title", description: "Description", imageSrc: "../../public/Avatar.png" },
-    { quote: "Quote", title: "Title", description: "Description", imageSrc: "../../public/Avatar.png" },
-    { quote: "Quote", title: "Title", description: "Description", imageSrc: "../../public/Avatar.png" },
+    { quote: "Quote", title: "Title", description: "Description", imageSrc: "/public/Avatar.png" },
+    { quote: "Quote", title: "Title", description: "Description", imageSrc: "/public/Avatar.png" },
+    { quote: "Quote", title: "Title", description: "Description", imageSrc: "/public/Avatar.png" },
+    { quote: "Quote", title: "Title", description: "Description", imageSrc: "/public/Avatar.png" },
+    { quote: "Quote", title: "Title", description: "Description", imageSrc: "/public/Avatar.png" },
   ];
 
   return (
